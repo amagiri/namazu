@@ -1,0 +1,83 @@
+{
+    "keywords": [
+    {
+        "name": "dragon",
+        "routes": ["sunsetMerlthor"]
+    },
+    {
+        "name": "octo",
+        "routes": ["nightMerlthor"]
+    }, 
+    {
+        "name": "blue-3",
+        "routes": ["dayMerlthor"]
+    },
+    {
+        "name": "blue-4",
+        "routes": ["sunsetRhotano"]
+    },
+    {
+        "name": "jelly",
+        "routes": ["nightRhotano"]
+    },
+    {
+        "name": "shark",
+        "routes": ["dayRhotano"]
+    },
+    {
+        "name": "crab",
+        "routes": ["dayBloodbrine"]
+    },
+    {
+        "name": "puffer",
+        "routes": ["nightRothlyt"]
+    },
+    {
+        "name": "manta",
+        "routes": ["nightBloodbrine"]
+    },
+    {
+        "name": "day",
+        "routes": ["dayMerlthor", "dayRhotano", "dayBloodbrine", "dayRothlyt"]
+    },
+    {
+        "name": "sunset",
+        "routes": ["sunsetMerlthor", "sunsetRhotano", "sunsetBloodbrine", "sunsetRothlyt"]
+    },
+    {
+        "name": "night",
+        "routes": ["nightMerlthor", "nightRhotano", "nightBloodbrine", "nightRothlyt"]
+    },
+    {
+        "name": "sothis",
+        "routes": ["dayMerlthor", "sunsetRhotano"]
+    },
+    {
+        "name": "coralmanta",
+        "routes": ["sunsetMerlthor", "dayRhotano"]
+    },
+    {
+        "name": "elasmosaurus",
+        "routes": ["dayMerlthor"]
+    },
+    {
+        "name": "stonescale",
+        "routes": ["sunsetRhotano"]
+    },
+	{
+		"name": "hafgufa",
+		"routes": ["sunsetRothlyt", "sunsetBloodbrine"]
+	},
+	{
+		"name": "seafaringtoad",
+		"routes": ["dayBloodbrine"]
+	},
+	{
+		"name": "placodus",
+		"routes": ["sunsetRothlyt"]
+    },
+    {
+        "name": "points",
+        "routes": ["dayRhotano"]
+    }]
+}
