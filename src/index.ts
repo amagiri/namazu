@@ -62,7 +62,23 @@ function convertKeys(inputKeys: string[]) {
     return validKeys;
 }
 
+export function isTimeValid(refRoute: Anchor, inputTime: Dayjs) {
+    if (inputTime.diff(refRoute.datetime) >= 0) {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+
 function adjustTimespan(refRoute: Anchor, timespan: Period) {
+    // To account for currently active routes, subtract 15 minutes if possible
+    const activeTime = timespan.start.subtract(15, 'minutes');
+
+    if (isTimeValid(refRoute, activeTime)) {
+        timespan.start = activeTime;
+    }
+
     // Round start period up to the nearset hour
     timespan.start = timespan.start.millisecond(0);
     timespan.start = timespan.start.second(0);

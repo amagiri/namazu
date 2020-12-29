@@ -9,14 +9,6 @@
         "routes": ["nightMerlthor"]
     }, 
     {
-        "name": "blue-3",
-        "routes": ["dayMerlthor"]
-    },
-    {
-        "name": "blue-4",
-        "routes": ["sunsetRhotano"]
-    },
-    {
         "name": "jelly",
         "routes": ["nightRhotano"]
     },
@@ -37,6 +29,10 @@
         "routes": ["nightBloodbrine"]
     },
     {
+        "name": "points",
+        "routes": ["dayRhotano", "dayBloodbrine", "dayRothlyt", "nightRhotano"]
+    },
+    {
         "name": "day",
         "routes": ["dayMerlthor", "dayRhotano", "dayBloodbrine", "dayRothlyt"]
     },
@@ -49,6 +45,22 @@
         "routes": ["nightMerlthor", "nightRhotano", "nightBloodbrine", "nightRothlyt"]
     },
     {
+        "name": "merlthor",
+        "routes": ["dayMerlthor", "sunsetMerlthor", "nightMerlthor"]
+    },
+    {
+        "name": "rhotano",
+        "routes": ["dayRhotano", "sunsetRhotano", "nightRhotano"]
+    },
+    {
+        "name": "bloodbrine",
+        "routes": ["dayBloodbrine", "sunsetBloodbrine", "nightBloodbrine"]
+    },
+    {
+        "name": "rothlyt",
+        "routes": ["dayRothlyt", "sunsetRothlyt", "nightRothlyt"]
+    },
+    {
         "name": "sothis",
         "routes": ["dayMerlthor", "sunsetRhotano"]
     },
@@ -58,11 +70,11 @@
     },
     {
         "name": "elasmosaurus",
-        "routes": ["dayMerlthor"]
+        "routes": ["dayMerlthor", "sunsetBloodbrine"]
     },
     {
         "name": "stonescale",
-        "routes": ["sunsetRhotano"]
+        "routes": ["sunsetRhotano", "nightRothlyt"]
     },
 	{
 		"name": "hafgufa",
@@ -75,9 +87,5 @@
 	{
 		"name": "placodus",
 		"routes": ["sunsetRothlyt"]
-    },
-    {
-        "name": "points",
-        "routes": ["dayRhotano"]
     }]
 }
